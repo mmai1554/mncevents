@@ -142,7 +142,7 @@ class Mncevents_Admin {
 			'feeds'      => true,
 		);
 		$args    = array(
-			'label'               => __( 'meldungen', 'mncevents' ),
+			'label'               => __( 'Veranstaltungen', 'mncevents' ),
 			'description'         => __( 'Veranstaltungen', 'mncevents' ),
 			'labels'              => $labels,
 			'supports'            => array( 'author', 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields', ),
@@ -223,7 +223,7 @@ class Mncevents_Admin {
 		);
 		$args   = array(
 			'labels'            => $labels,
-			'hierarchical'      => false,
+			'hierarchical'      => true,
 			'public'            => true,
 			'show_ui'           => true,
 			'show_admin_column' => true,
